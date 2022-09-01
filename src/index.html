@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- head include -->
+@@include('html/partials/head.html', {
+"title": "Пушистые искусственные елки"
+})
+
+<body>
+    <!-- header include -->
+    @@include('html/partials/header.html')
+
+
+    <div id="modal" class="modal">
+        <div class="modal__container">
+
+        </div>
+    </div>
+
+    <!-- nav -->
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#facts" class="nav__link">6 фактов о наших ёлках</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#choose" class="nav__link">Выбрать ёлку</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#live" class="nav__link">Живые фото</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#reviews" class="nav__link">Отзывы</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main -->
+    <main class="main">
+        <div class="banner">
+            <div class="container">
+                <div class="banner__inner">
+                    <h1 class="banner__title">Пушистые искусственные елки</h1>
+                    <p class="banner__subtitle">С бесплатной доставкой</p>
+                    <a href="#choose" class="banner__link">Заказать сейчас</a>
+                </div>
+            </div>
+        </div>
+
+        <section id="choose" class="section section--buy">
+            <div class="container">
+                <div class="section__inner">
+                    <div class="section__title-wrapper">
+                        <h2 class="section__title">Выбери свою елку</h2>
+                    </div>
+                    <div class="section__content">
+                        <div class="buy__ad">
+                            <p class="buy__ad-item buy__ad-item--1">
+                                Бесплатная сборка
+                            </p>
+                            <p class="buy__ad-item buy__ad-item--2">
+                                Оплата на сайте картой
+                            </p>
+                        </div>
+
+                        <ul class="buy__list">
+                            <li class="buy__list-item" id="buy60">
+                                <span class="buy__list-item-height">60см</span>
+                                <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--1"
+                                    alt="искусственная елка 60см">
+                                <span class="buy__list-item-old-price">1100 руб</span>
+                                <span class="buy__list-item-new-price">590 руб</span>
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no"
+                                    src="https://yoomoney.ru/quickpay/button-widget?account=
+                                4100139243014&quickpay=small&any-card-payment-type=on&button-text=02&button-size=m&button-color=orange&targets=%D0%95%D0%BB%D0%BA%D0%B0+60%D1%81%D0%BC&default-sum=590&fio=on&mail=on&phone=on&address=on&successURL=domen.ru"
+                                    width="154" height="36"></iframe>
+                            </li>
+                            <li class="buy__list-item" id="buy90">
+                                <span class="buy__list-item-height">90см</span>
+                                <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--2"
+                                    alt="искусственная елка 90см">
+                                <span class="buy__list-item-old-price">2100 руб</span>
+                                <span class="buy__list-item-new-price">990 руб</span>
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no"
+                                    src="https://yoomoney.ru/quickpay/button-widget?account=
+4100139243014&quickpay=small&any-card-payment-type=on&button-text=02&button-size=m&button-color=orange&targets=%D0%95%D0%BB%D0%BA%D0%B0+60%D1%81%D0%BC&default-sum=590&fio=on&mail=on&phone=on&address=on&successURL=domen.ru"
+                                    width="154" height="36"></iframe>
+                            </li>
+                            <li class="buy__list-item" id="buy120">
+                                <span class="buy__list-item-height">120см</span>
+                                <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--3"
+                                    alt="искусственная елка 120см">
+                                <span class="buy__list-item-old-price">3100 руб</span>
+                                <span class="buy__list-item-new-price">1890 руб</span>
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no"
+                                    src="https://yoomoney.ru/quickpay/button-widget?account=
+4100139243014&quickpay=small&any-card-payment-type=on&button-text=02&button-size=m&button-color=orange&targets=%D0%95%D0%BB%D0%BA%D0%B0+60%D1%81%D0%BC&default-sum=590&fio=on&mail=on&phone=on&address=on&successURL=domen.ru"
+                                    width="154" height="36"></iframe>
+                            </li>
+                            <li class="buy__list-item" id="buy150">
+                                <span class="buy__list-item-height">150см</span>
+                                <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--4"
+                                    alt="искусственная елка 150см">
+                                <span class="buy__list-item-old-price">4500 руб</span>
+                                <span class="buy__list-item-new-price">2290 руб</span>
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no"
+                                    src="https://yoomoney.ru/quickpay/button-widget?account=
+4100139243014&quickpay=small&any-card-payment-type=on&button-text=02&button-size=m&button-color=orange&targets=%D0%95%D0%BB%D0%BA%D0%B0+60%D1%81%D0%BC&default-sum=590&fio=on&mail=on&phone=on&address=on&successURL=domen.ru"
+                                    width="154" height="36"></iframe>
+                            </li>
+                            <li class="buy__list-item buy__list-item--hit" id="buy180">
+                                <span class="buy__list-item-height">180см</span>
+                                <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--5"
+                                    alt="искусственная елка 180см">
+                                <span class="buy__list-item-old-price">5500 руб</span>
+                                <span class="buy__list-item-new-price">2990 руб</span>
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no"
+                                    src="https://yoomoney.ru/quickpay/button-widget?account=
+4100139243014&quickpay=small&any-card-payment-type=on&button-text=02&button-size=m&button-color=orange&targets=%D0%95%D0%BB%D0%BA%D0%B0+60%D1%81%D0%BC&default-sum=590&fio=on&mail=on&phone=on&address=on&successURL=domen.ru"
+                                    width="154" height="36"></iframe>
+                            </li>
+                            <li class="buy__list-item" id="buy210">
+                                <span class="buy__list-item-height">210см</span>
+                                <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--6"
+                                    alt="искусственная елка 210см">
+                                <span class="buy__list-item-old-price">6500 руб</span>
+                                <span class="buy__list-item-new-price">3990 руб</span>
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no"
+                                    src="https://yoomoney.ru/quickpay/button-widget?account=
+4100139243014&quickpay=small&any-card-payment-type=on&button-text=02&button-size=m&button-color=orange&targets=%D0%95%D0%BB%D0%BA%D0%B0+60%D1%81%D0%BC&default-sum=590&fio=on&mail=on&phone=on&address=on&successURL=domen.ru"
+                                    width="154" height="36"></iframe>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="live" class="section section--live">
+            <div class="container">
+                <div class="section__inner">
+                    <div class="section__title-wrapper">
+                        <h2 class="section__title">Живые фото наших елок</h2>
+                    </div>
+                    <div class="section__content">
+
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live1.jpg"
+                                        title="Живое фото 1">
+                                        <img src="images/live/live1_small.jpg" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live2.jpg"
+                                        title="Живое фото 2">
+                                        <img src="images/live/live2_small.jpg" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live3.jpg"
+                                        title="Живое фото 3">
+                                        <img src="images/live/live3_small.jpg" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live4.jpg"
+                                        title="Живое фото 4">
+                                        <img src="images/live/live4_small.jpg" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live5.jpg"
+                                        title="Живое фото 5">
+                                        <img src="images/live/live5_small.jpg" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live6.jpg"
+                                        title="Живое фото 6">
+                                        <img src="images/live/live6_small.jpg" />
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="image-popup-vertical-fit" href="images/live/live7.jpg"
+                                        title="Живое фото 7">
+                                        <img src="images/live/live7_small.jpg" />
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-btn-prev">
+                                <img src="images/slider/icon-prev.svg" alt="назад">
+                            </div>
+                            <div class="swiper-btn-next">
+                                <img src="images/slider/icon-next.svg" alt="вперед">
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section facts -->
+        <section id="facts" class="section section--facts">
+            <div class="container">
+                <div class="section__inner">
+                    <div class="section__title-wrapper">
+                        <h2 class="section__title">6 фактов о нашей елке</h2>
+                    </div>
+                    <div class="section__content">
+                        <div class="facts">
+                            <div class="facts__item facts__item--1">
+                                <span class="facts__item-title">
+                                    Выгодное вложение
+                                </span>
+                                <p class="facts__item-text">
+                                    Покупая нашу елку, Вы избавляете себя от ежегодных трат
+                                </p>
+                            </div>
+                            <div class="facts__item facts__item--2">
+                                <span class="facts__item-title">
+                                    Крепкая
+                                </span>
+                                <p class="facts__item-text">
+                                    Прочный каркас удерживает ветви и иголки многие годы
+                                </p>
+                            </div>
+                            <div class="facts__item facts__item--3">
+                                <span class="facts__item-title">
+                                    Нарядная
+                                </span>
+                                <p class="facts__item-text">
+                                    Снежное напыление и шишки
+                                </p>
+                            </div>
+                            <div class="facts__item facts__item--4">
+                                <span class="facts__item-title">
+                                    Практичная
+                                </span>
+                                <p class="facts__item-text">
+                                    Компактная упаковка, в которой удобно хранить елку
+                                </p>
+                            </div>
+                            <div class="facts__item facts__item--5">
+                                <span class="facts__item-title">
+                                    Чистоплотная
+                                </span>
+                                <p class="facts__item-text">
+                                    После праздников не придется делать генеральную уборку
+                                </p>
+                            </div>
+                            <div class="facts__item facts__item--6">
+                                <span class="facts__item-title">
+                                    Экологичная
+                                </span>
+                                <p class="facts__item-text">
+                                    Гипоаллергенный материал, абсолютно безопасный для детей
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="facts--mobile">
+                            <ul class="facts__list">
+                                <li class="facts__list-item">
+                                    <span class="facts__list-item-title">
+                                        Выгодное вложение
+                                    </span>
+                                    <p class="facts__list-item-text">
+                                        Покупая нашу елку, Вы избавляете себя от ежегодных трат
+                                    </p>
+                                </li>
+                                <li class="facts__list-item">
+                                    <span class="facts__list-item-title">
+                                        Крепкая
+                                    </span>
+                                    <p class="facts__list-item-text">
+                                        Прочный каркас удерживает ветви и иголки многие годы
+                                    </p>
+                                </li>
+                                <li class="facts__list-item">
+                                    <span class="facts__list-item-title">
+                                        Нарядная
+                                    </span>
+                                    <p class="facts__list-item-text">
+                                        Снежное напыление и шишки
+                                    </p>
+                                </li>
+                                <li class="facts__list-item">
+                                    <span class="facts__list-item-title">
+                                        Практичная
+                                    </span>
+                                    <p class="facts__list-item-text">
+                                        Компактная упаковка, в которой удобно хранить елку
+                                    </p>
+                                </li>
+                                <li class="facts__list-item">
+                                    <span class="facts__list-item-title">
+                                        Чистоплотная
+                                    </span>
+                                    <p class="facts__list-item-text">
+                                        После праздников не придется делать генеральную уборку
+                                    </p>
+                                </li>
+                                <li class="facts__list-item">
+                                    <span class="facts__list-item-title">
+                                        Экологичная
+                                    </span>
+                                    <p class="facts__list-item-text">
+                                        Гипоаллергенный материал, абсолютно безопасный для детей
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section reviews -->
+        <section id="reviews" class="section section--reviews">
+            <div class="container">
+                <div class="section__inner">
+                    <div class="section__title-wrapper">
+                        <h2 class="section__title">Отзывы наших покупателей</h2>
+                        <p class="section__subtitle">Качество наших елок проверено многими жителями Москвы</p>
+                    </div>
+                    <div class="section__content">
+                        <div class="reviews">
+                            <ul class="reviews__list">
+                                <li class="reviews__list-item">
+                                    <img src="images/review/face1.png" class='reviews__list-item-image'
+                                        alt="фото покупателя">
+                                    <span class="reviews__list-item-name">Тома</span>
+                                    <p class="reviews__list-item-text">Заказали елку на вашем сайте. Теперь не
+                                        придётся
+                                        каждый год покупать новую. Выглядит очень круто, прям как в Американских
+                                        фильмах!:) Cпасибо за качественный сервис! Уже рассказала маме и подругам,
+                                        ждите
+                                        заказы!:)</p>
+
+                                </li>
+                                <li class="reviews__list-item">
+                                    <img src="images/review/face2.png" class='reviews__list-item-image'
+                                        alt="фото покупателя">
+                                    <span class="reviews__list-item-name">Ярослав</span>
+                                    <p class="reviews__list-item-text">Наконец пришла наша елка. Дети в восторге. Целый
+                                        вечер говорили Пап давай украшать ёлку. Тут пригодились и ваши подарки! Большое
+                                        спасибо за то, что принесли такую радость моим детям.</p>
+                                </li>
+                                <li class="reviews__list-item">
+                                    <img src="images/review/face3.png" class='reviews__list-item-image'
+                                        alt="фото покупателя">
+                                    <span class="reviews__list-item-name">Лилия</span>
+                                    <p class="reviews__list-item-text">Вот и моя елочка тоже пришла!) Она оказалась ещё
+                                        красивее, чем на фото!) Не думала, обычная елка может доставить столько радости)
+                                        Теперь вся квартира пропитана новогодней атмосферой!) Всех с наступаюшим!</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="logo__wrapper">
+            <a href="#" class="logo">
+                <img src="images/logo/logo.png" alt="Логотип" />
+                <div class="logo__text">
+                    <span class="logo__title">Ёлк-Ин</span>
+                    <span class="logo__sub-title">Искусственные ёлки</span>
+                </div>
+            </a>
+        </div>
+
+    </main>
+    <!-- footer include -->
+    @@include('html/partials/footer.html')
+
+    <!-- scripts -->
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

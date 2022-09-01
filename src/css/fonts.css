@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'BrushType Normal';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/brushtype-normal.ttf') format('truetype'); /* Safari, Android, iOS */
+}
