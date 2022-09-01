@@ -45,7 +45,18 @@ const swiper = new Swiper('.swiper', {
 const modal = document.querySelector('#modal')
 
 const modalObj = {}
-// console.log(modal)
+console.log(modal)
+
+// burger
+
+const burgerBtn = document.querySelector('.burger')
+
+const navList = document.querySelector('.nav__list')
+
+burgerBtn.addEventListener('click', () => {
+    burgerBtn.classList.toggle('active')
+    navList.classList.toggle('active')
+})
 
 // $(function () {
 //     //STICKY MENU

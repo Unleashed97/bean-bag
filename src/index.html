@@ -13,20 +13,28 @@
     <!-- nav -->
     <nav class="nav">
         <div class="container">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#facts" class="nav__link">6 фактов о наших ёлках</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#choose" class="nav__link">Выбрать ёлку</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#live" class="nav__link">Живые фото</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#reviews" class="nav__link">Отзывы</a>
-                </li>
-            </ul>
+            <div class="nav__inner">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#facts" class="nav__link">6 фактов о наших ёлках</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#choose" class="nav__link">Выбрать ёлку</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#live" class="nav__link">Живые фото</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#reviews" class="nav__link">Отзывы</a>
+                    </li>
+                </ul>
+
+                <button type="button" class="burger">
+                    <span class="burger__item"></span>
+                    <span class="burger__item"></span>
+                    <span class="burger__item"></span>
+                </button>
+            </div>
         </div>
     </nav>
     <!-- main -->
@@ -58,7 +66,7 @@
                         </div>
 
                         <ul class="buy__list">
-                            <li class="buy__list-item" dataid="buy60">
+                            <li class="buy__list-item" id="buy60">
                                 <span class="buy__list-item-height">60см</span>
                                 <img src="images/trees/tree.png" class="buy__list-item-image buy__list-item-image--1"
                                     alt="искусственная елка 60см">
@@ -188,12 +196,12 @@
                                 </div>
                             </div>
                             <!-- If we need navigation buttons -->
-                            <div class="swiper-btn-prev">
+                            <button type="button" class="swiper-btn-prev">
                                 <img src="images/slider/icon-prev.svg" alt="назад">
-                            </div>
-                            <div class="swiper-btn-next">
+                            </button>
+                            <button type="button" class="swiper-btn-next">
                                 <img src="images/slider/icon-next.svg" alt="вперед">
-                            </div>
+                            </button>
 
 
                         </div>
