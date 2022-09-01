@@ -45,7 +45,7 @@ const swiper = new Swiper('.swiper', {
 const modal = document.querySelector('#modal')
 
 const modalObj = {}
-console.log(modal)
+// console.log(modal)
 
 // $(function () {
 //     //STICKY MENU
