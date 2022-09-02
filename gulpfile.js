@@ -82,26 +82,24 @@ export const html = () => {
 }
 
 export const styles = () => {
-    return (
-        gulp
-            .src(path.src.css)
-            .pipe(
-                plumber({
-                    errorHandler: function (err) {
-                        notify.onError({
-                            title: 'SCSS Error',
-                            message: 'Error: <%= error.message %>',
-                        })(err)
-                        this.emit('end')
-                    },
-                }),
-            )
-            .pipe(concat('concatenated.css'))
-            .pipe(rename({ basename: 'style', suffix: '.min' }))
-            // .pipe(postcss([autoprefixer(), cssnano()]))
-            .pipe(gulp.dest(path.dist.css))
-            .pipe(sync.stream())
-    )
+    return gulp
+        .src(path.src.css)
+        .pipe(
+            plumber({
+                errorHandler: function (err) {
+                    notify.onError({
+                        title: 'SCSS Error',
+                        message: 'Error: <%= error.message %>',
+                    })(err)
+                    this.emit('end')
+                },
+            }),
+        )
+        .pipe(concat('concatenated.css'))
+        .pipe(rename({ basename: 'style', suffix: '.min' }))
+        .pipe(postcss([autoprefixer(), cssnano()]))
+        .pipe(gulp.dest(path.dist.css))
+        .pipe(sync.stream())
 }
 
 export const scripts = () => {
