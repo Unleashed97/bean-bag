@@ -782,6 +782,11 @@ ul {
         top: 57px;
         right: 16px;
     }
+
+    .buy__ad-item--3 {
+        top: 90px;
+        left: 26px;
+    }
 }
 
 .buy__list {
@@ -852,26 +857,23 @@ ul {
     right: -30px;
 }
 
-.buy__list-item-image {
-}
-
 .buy__list-item-image--1 {
-    width: 50%;
+    width: 75%;
 }
 .buy__list-item-image--2 {
-    width: 55%;
+    width: 80%;
 }
 .buy__list-item-image--3 {
-    width: 60%;
+    width: 85%;
 }
 .buy__list-item-image--4 {
-    width: 65%;
+    width: 90%;
 }
 .buy__list-item-image--5 {
-    width: 70%;
+    width: 95%;
 }
 .buy__list-item-image--6 {
-    width: 75%;
+    width: 100%;
 }
 
 .buy__list-item-old-price {
