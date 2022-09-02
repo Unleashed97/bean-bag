@@ -847,10 +847,13 @@ ul {
 
 .banner {
   position: relative;
-  background-image: url("../images/bg/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.no-webp .banner {
+  background-image: url("../images/bg/banner-bg.jpg");
 }
 
 .webp .banner {
@@ -927,6 +930,9 @@ ul {
   left: 0;
   width: 100%;
   height: 36px;
+}
+
+.no-webp .section::before {
   background-image: url("../images/decor/garland.png");
 }
 
@@ -934,7 +940,9 @@ ul {
   background-image: url("../images/decor/garland.webp");
 }
 
-.section--buy {
+/* buy section bg*/
+
+.no-webp .section--buy {
   background-image: url("../images/bg/buy-bg.jpg");
 }
 
@@ -942,7 +950,7 @@ ul {
   background-image: url("../images/bg/buy-bg.webp");
 }
 
-.section--buy .section__title-wrapper {
+.no-webp .section--buy .section__title-wrapper {
   background-image: url("../images/decor/substrate1.png");
 }
 
@@ -950,8 +958,13 @@ ul {
   background-image: url("../images/decor/substrate1.webp");
 }
 
+/* live section bg */
+
 .section--live {
   position: relative;
+}
+
+.no-webp .section--live {
   background-image: url("../images/bg/live-bg.jpg");
 }
 
@@ -959,7 +972,7 @@ ul {
   background-image: url("../images/bg/live-bg.webp");
 }
 
-.section--live .section__title-wrapper {
+.no-webp .section--live .section__title-wrapper {
   background-image: url("../images/decor/substrate3.png");
 }
 
@@ -967,7 +980,9 @@ ul {
   background-image: url("../images/decor/substrate3.webp");
 }
 
-.section--facts {
+/* facts section bg */
+
+.no-webp .section--facts {
   background-image: url("../images/bg/facts-bg.png");
 }
 
@@ -975,7 +990,7 @@ ul {
   background-image: url("../images/bg/facts-bg.webp");
 }
 
-.section--facts .section__title-wrapper {
+.no-webp .section--facts .section__title-wrapper {
   background-image: url("../images/decor/substrate4.png");
 }
 
@@ -983,7 +998,9 @@ ul {
   background-image: url("../images/decor/substrate4.webp");
 }
 
-.section--reviews {
+/* reviews section bg */
+
+.no-webp .section--reviews {
   background-image: url("../images/bg/live-bg.jpg");
 }
 
@@ -991,7 +1008,7 @@ ul {
   background-image: url("../images/bg/live-bg.webp");
 }
 
-.section--reviews .section__title-wrapper {
+.no-webp .section--reviews .section__title-wrapper {
   background-image: url("../images/decor/substrate5.png");
 }
 
@@ -1075,8 +1092,6 @@ ul {
 
 /* section buy */
 
-
-
 .buy__ad {
   position: relative;
   width: 410px;
@@ -1084,10 +1099,13 @@ ul {
   margin: 25px auto;
   font-size: 17px;
   text-transform: uppercase;
-  background-image: url("../images/decor/substrate2.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.no-webp .buy__ad {
+  background-image: url("../images/decor/substrate2.png");
 }
 
 .webp .buy__ad {
@@ -1185,10 +1203,13 @@ ul {
   z-index: 1;
   width: 59px;
   height: 66px;
-  background-image: url("../images/decor/hit.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.no-webp .buy__list-item--hit::before {
+  background-image: url("../images/decor/hit.png");
 }
 
 .webp .buy__list-item--hit::before {
@@ -1295,10 +1316,13 @@ ul {
   max-width: 851px;
   height: 429px;
   margin: 0 auto;
-  background-image: url("../images/facts/factstree.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.no-webp .facts {
+  background-image: url("../images/facts/factstree.png");
 }
 
 .webp .facts {
