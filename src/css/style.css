@@ -16,7 +16,8 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Helvetica', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
 }
 
 /* container */
@@ -486,6 +487,10 @@ ul {
     background-size: cover;
 }
 
+.webp .banner {
+    background-image: url('../images/bg/banner-bg.webp');
+}
+
 .banner__inner {
     width: 100%;
     height: 510px;
@@ -569,12 +574,24 @@ ul {
     background-image: url('../images/decor/garland.png');
 }
 
+.webp .section::before {
+    background-image: url('../images/decor/garland.webp');
+}
+
 .section--buy {
     background-image: url('../images/bg/buy-bg.jpg');
 }
 
+.webp .section--buy {
+    background-image: url('../images/bg/buy-bg.webp');
+}
+
 .section--buy .section__title-wrapper {
     background-image: url('../images/decor/substrate1.png');
+}
+
+.webp .section--buy .section__title-wrapper {
+    background-image: url('../images/decor/substrate1.webp');
 }
 
 .section--live {
@@ -582,24 +599,48 @@ ul {
     background-image: url('../images/bg/live-bg.jpg');
 }
 
+.webp .section--live {
+    background-image: url('../images/bg/live-bg.webp');
+}
+
 .section--live .section__title-wrapper {
     background-image: url('../images/decor/substrate3.png');
+}
+
+.webp .section--live .section__title-wrapper {
+    background-image: url('../images/decor/substrate3.webp');
 }
 
 .section--facts {
     background-image: url('../images/bg/facts-bg.png');
 }
 
+.webp .section--facts {
+    background-image: url('../images/bg/facts-bg.webp');
+}
+
 .section--facts .section__title-wrapper {
     background-image: url('../images/decor/substrate4.png');
+}
+
+.webp .section--facts .section__title-wrapper {
+    background-image: url('../images/decor/substrate4.webp');
 }
 
 .section--reviews {
     background-image: url('../images/bg/live-bg.jpg');
 }
 
+.webp .section--reviews {
+    background-image: url('../images/bg/live-bg.webp');
+}
+
 .section--reviews .section__title-wrapper {
     background-image: url('../images/decor/substrate5.png');
+}
+
+.webp .section--reviews .section__title-wrapper {
+    background-image: url('../images/decor/substrate5.webp');
 }
 
 .section__inner {
@@ -697,6 +738,10 @@ ul {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.webp .buy__ad {
+    background-image: url('../images/decor/substrate2.webp');
 }
 
 @media (max-width: 576px) {
@@ -802,6 +847,10 @@ ul {
     background-position: center;
 }
 
+.webp .buy__list-item--hit::before {
+    background-image: url('../images/decor/hit.webp');
+}
+
 .buy__list-item-height {
     position: relative;
     right: -30px;
@@ -904,6 +953,10 @@ ul {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
+
+.webp .facts {
+    background-image: url('../images/facts/factstree.webp');
 }
 
 .facts__item {
