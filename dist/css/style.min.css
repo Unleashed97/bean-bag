@@ -846,7 +846,7 @@ ul {
 
 .banner {
   position: relative;
-  background-image: url("../images/bg/background8.png");
+  background-image: url("../images/bg/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -926,7 +926,7 @@ ul {
 }
 
 .section--buy {
-  background-image: url("../images/bg/background2.png");
+  background-image: url("../images/bg/buy-bg.jpg");
 }
 
 .section--buy .section__title-wrapper {
@@ -935,7 +935,7 @@ ul {
 
 .section--live {
   position: relative;
-  background-image: url("../images/bg/background3.png");
+  background-image: url("../images/bg/live-bg.jpg");
 }
 
 .section--live .section__title-wrapper {
@@ -943,7 +943,7 @@ ul {
 }
 
 .section--facts {
-  background-image: url("../images/bg/background4.png");
+  background-image: url("../images/bg/facts-bg.png");
 }
 
 .section--facts .section__title-wrapper {
@@ -951,7 +951,7 @@ ul {
 }
 
 .section--reviews {
-  background-image: url("../images/bg/background3.png");
+  background-image: url("../images/bg/live-bg.jpg");
 }
 
 .section--reviews .section__title-wrapper {
